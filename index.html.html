@@ -1,0 +1,517 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Longitude Motors</title>
+<style>
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background: #003366; /* azul sólido */
+    color: #fff;
+  }
+
+  header {
+    background: #002244;
+    color: #fff;
+    padding: 30px 20px;
+    text-align: center;
+  }
+
+  header img {
+    max-width: 450px;
+    height: auto;
+    display: block;
+    margin: 0 auto 15px;
+    background: #ffffff;
+    padding: 15px;
+    border-radius: 20px;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.4);
+    transition: transform 0.3s, box-shadow 0.3s;
+  }
+
+  header img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 25px rgba(255,255,255,0.5);
+  }
+
+  h1 { 
+    margin: 10px 0 5px; 
+    font-size: 28px;
+  }
+  p { margin: 0; font-size: 18px; }
+
+  .estoque {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    gap: 20px;
+    padding: 20px;
+    max-width: 1400px;
+    margin: auto;
+  }
+
+  .carro {
+    background: #fff;
+    color: #000;
+    border-radius: 12px;
+    box-shadow: 0px 4px 12px rgba(0,0,0,0.3);
+    overflow: hidden;
+    transition: transform 0.3s;
+    display: flex;
+    flex-direction: column;
+    min-height: 500px; /* altura mínima padrão */
+  }
+  .carro:hover { transform: scale(1.03); }
+
+  /* Carrossel */
+  .carousel {
+    position: relative;
+    width: 100%;
+    height: 200px;
+    overflow: hidden;
+  }
+  .carousel img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    display: none;
+  }
+  .carousel img.active { display: block; }
+  .carousel button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: rgba(0,0,0,0.6);
+    color: #fff;
+    border: none;
+    padding: 8px 12px;
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 50%;
+  }
+  .carousel .prev { left: 10px; }
+  .carousel .next { right: 10px; }
+
+  .info {
+    padding: 15px;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+  }
+  .info h2 { margin: 0 0 10px; font-size: 18px; color: #004080; }
+  .info p { margin-bottom: 10px; }
+
+  .preco {
+    color: #d32f2f;
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: auto;
+  }
+
+  .btn-whatsapp {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 15px;
+    background: #25d366;
+    color: #fff;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 8px;
+    text-align: center;
+    transition: background 0.3s;
+  }
+  .btn-whatsapp:hover {
+    background: #1ebe5c;
+  }
+
+  footer {
+    text-align: center;
+    padding: 20px;
+    background: #002244;
+    color: #fff;
+  }
+
+  /* Botões fixos */
+  .whatsapp-float {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background: #25d366;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px 4px 12px rgba(0,0,0,0.3);
+    cursor: pointer;
+    z-index: 999;
+  }
+  .whatsapp-float img { width: 35px; height: 35px; }
+
+  .instagram-float {
+    position: fixed;
+    bottom: 90px;
+    right: 20px;
+    background: #E4405F;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px 4px 12px rgba(0,0,0,0.3);
+    cursor: pointer;
+    z-index: 998;
+  }
+  .instagram-float img { width: 35px; height: 35px; }
+
+  /* Caixa de contatos */
+  .whatsapp-box {
+    display: none;
+    position: fixed;
+    bottom: 90px;
+    right: 20px;
+    background: #fff;
+    color: #000;
+    border-radius: 12px;
+    box-shadow: 0px 4px 12px rgba(0,0,0,0.3);
+    padding: 15px;
+    width: 250px;
+    z-index: 999;
+  }
+  .whatsapp-box h3 {
+    margin: 0 0 10px;
+    font-size: 16px;
+    color: #004080;
+  }
+  .whatsapp-box a {
+    display: block;
+    margin: 8px 0;
+    text-decoration: none;
+    color: #000;
+    font-size: 14px;
+    background: #f1f1f1;
+    padding: 8px;
+    border-radius: 8px;
+    transition: 0.3s;
+  }
+  .whatsapp-box a:hover {
+    background: #25d366;
+    color: #fff;
+  }
+</style>
+</head>
+<body>
+<header>
+  <img src="C:\Users\edson\OneDrive\Área de Trabalho\Site\Fotos\logo longitude.png" alt="Longitude Motors Logo">
+  <h1>Longitude Motors 🚘</h1>
+  <p>Seu próximo carro está aqui!</p>
+</header>
+
+<section class="estoque">
+  
+<!-- MONTANA -->
+<div class="carro">
+  <div class="carousel">
+    <img src="montana1.jpg" class="active">
+    <img src="montana1%20(1).jpg">
+    <img src="montana1%20(2).jpg">
+    <img src="montana1%20(3).jpg">
+    <img src="montana1%20(4).jpg">
+    <img src="montana1%20(5).jpg">
+    <img src="montana1%20(6).jpg">
+    <img src="montana1%20(7).jpg">
+    <img src="montana1%20(8).jpg">
+    <img src="montana1%20(9).jpg">
+    <button class="prev">&#10094;</button>
+    <button class="next">&#10095;</button>
+  </div>
+  <div class="info">
+    <h2>Chevrolet Montana 1.4 2014 – Completa</h2>
+    <p>📍 Veículo em excelente estado de conservação<br>
+    ✅ 2014, 1.4 Flex, 161.147 km<br>
+    ✅ Completa: ar, direção, vidros, ABS, airbag, som<br>
+    ✅ Caçamba grande, baixo custo de manutenção</p>
+    <p class="preco">R$ 42.900,00</p>
+    <a href="https://wa.me/5511955203353?text=Olá! Tenho interesse na Montana 2014." target="_blank" class="btn-whatsapp">Falar no WhatsApp</a>
+  </div>
+</div>
+
+<!-- PUNTO -->
+<div class="carro">
+  <div class="carousel">
+    <img src="punto1%20(3).jpeg">
+    <img src="punto1%20(5).jpeg">
+    <img src="punto1%20(1).jpeg">
+    <img src="punto1%20(2).jpeg">
+    <img src="punto1%20(4).jpeg">
+    <img src="punto1%20(6).jpeg">
+    <img src="punto1%20(7).jpeg">
+    <img src="punto1%20(8).jpeg">
+    <img src="punto1%20(9).jpeg">
+    <img src="punto1%20(10).jpeg">
+    <img src="punto1%20(11).jpeg">
+    <img src="punto1%20(12).jpeg">
+    <img src="punto1%20(13).jpeg">
+    <img src="punto1%20(14).jpeg">
+    <img src="punto1%20(15).jpeg">
+    <button class="prev">&#10094;</button>
+    <button class="next">&#10095;</button>
+  </div>
+  <div class="info">
+    <h2>Fiat Punto 1.6 – 2015 Completo</h2>
+    <p>✅ Vidros elétricos nas 4 portas<br>
+    ✅ Direção, ar-condicionado, travas e mais conforto<br>
+    📍 157.000 km<br>
+    🚨 Passagem por leilão (não consta no doc)<br>
+    💳 Financiamento bancário em até 60x</p>
+    <p class="preco">R$ 45.900,00</p>
+    <a href="https://wa.me/5511955203353?text=Olá! Tenho interesse no Punto." target="_blank" class="btn-whatsapp">Falar no WhatsApp</a>
+  </div>
+</div>
+
+<!-- ARGO -->
+<div class="carro">
+  <div class="carousel">
+    <img src="ARGO%20(1).jpeg">
+    <img src="ARGO%20(2).jpeg">
+    <img src="ARGO%20(3).jpeg">
+    <img src="ARGO%20(4).jpeg">
+    <img src="ARGO%20(5).jpeg">
+    <img src="ARGO%20(6).jpeg">
+    <img src="ARGO%20(7).jpeg">
+    <img src="ARGO%20(8).jpeg">
+    <img src="ARGO%20(9).jpeg">
+    <img src="ARGO%20(10).jpeg">
+    <img src="ARGO%20(11).jpeg">
+    <img src="ARGO%20(12).jpeg">
+    <button class="prev">&#10094;</button>
+    <button class="next">&#10095;</button>
+  </div>
+  <div class="info">
+    <h2>FIAT ARGO 1.0 – 2021/2021</h2>
+    <p>✅ Ano/Modelo: 2021/2021<br>
+    ✅ Motor 1.0 Firefly econômico<br>
+    ✅ Completo: direção elétrica, ar-condicionado, vidros e travas elétricas, multimídia Bluetooth/USB<br>
+    ✅ Volante multifuncional<br>
+    ✅ Câmbio manual de 5 marchas<br>
+    ✅ Pneus em ótimo estado<br>
+    ✅ Interior bem conservado<br>
+    ✅ Revisões em dia<br>
+    📑 Financiamento em até 60x<br>
+    📲 Aceitamos troca – avaliamos seu usado!</p>
+    <p class="preco">R$ 57.900,00</p>
+    <a href="https://wa.me/5511955203353?text=Olá! Tenho interesse no Argo 2021." target="_blank" class="btn-whatsapp">Falar no WhatsApp</a>
+  </div>
+</div>
+
+<!-- GOL CITY 2015 -->
+<div class="carro">
+  <div class="carousel">
+    <img src="GOLCITY2015%20(7).jpeg">
+    <img src="GOLCITY2015%20(1).jpeg">
+    <img src="GOLCITY2015%20(2).jpeg">
+    <img src="GOLCITY2015%20(3).jpeg">
+    <img src="GOLCITY2015%20(4).jpeg">
+    <img src="GOLCITY2015%20(5).jpeg">
+    <img src="GOLCITY2015%20(6).jpeg">
+    <img src="GOLCITY2015%20(8).jpeg">
+    <img src="GOLCITY2015%20(9).jpeg">
+    <button class="prev">&#10094;</button>
+    <button class="next">&#10095;</button>
+  </div>
+  <div class="info">
+    <h2>Volkswagen Gol 1.0 City 2015</h2>
+    <p>Completo (exceto direção hidráulica), econômico e de baixa manutenção.<br>
+    ✅ Ano/Modelo: 2015<br>
+    ✅ Motor 1.0 econômico<br>
+    ✅ Ar-condicionado<br>
+    ✅ Vidros e travas elétricas<br>
+    ✅ Revisões em dia<br>
+    ✅ Documentação em ordem<br>
+    📑 Financiamento bancário em até 60x</p>
+    <p class="preco">R$ 34.900,00</p>
+    <a href="https://wa.me/5511955203353?text=Olá! Tenho interesse no GOL 2015." target="_blank" class="btn-whatsapp">Falar no WhatsApp</a>
+  </div>
+</div>
+
+<!-- MOBI -->
+<div class="carro">
+  <div class="carousel">
+    <img src="MOBI%20(8).jpeg">
+    <img src="MOBI%20(1).jpeg">
+    <img src="MOBI%20(2).jpeg">
+    <img src="MOBI%20(3).jpeg">
+    <img src="MOBI%20(4).jpeg">
+    <img src="MOBI%20(5).jpeg">
+    <img src="MOBI%20(6).jpeg">
+    <img src="MOBI%20(7).jpeg">
+    <img src="MOBI%20(9).jpeg">
+    <img src="MOBI%20(10).jpeg">
+    <img src="MOBI%20(11).jpeg">
+    <img src="MOBI%20(12).jpeg">
+    <img src="MOBI%20(13).jpeg">
+    <img src="MOBI%20(14).jpeg">
+    <img src="MOBI%20(15).jpeg">
+    <button class="prev">&#10094;</button>
+    <button class="next">&#10095;</button>
+  </div>
+  <div class="info">
+    <h2>Fiat Mobi Like 1.0 2021 - Completo</h2>
+    <p>📍 Veículo em excelente estado de conservação<br>
+    ✅ Ano/Modelo: 2021<br>
+    ✅ Motorização: 1.0 Flex Econômico<br>
+    ✅ Quilometragem: 101.113 km<br>
+    ✅ Completo (ar, direção, vidros, som)<br>
+    ✅ Cautelar aprovada<br>
+    ✅ Ótimo consumo médio: 12 km/l</p>
+    <p class="preco">R$ 47.900,00</p>
+    <a href="https://wa.me/5511955203353?text=Olá! Tenho interesse no MOBI 2021." target="_blank" class="btn-whatsapp">Falar no WhatsApp</a>
+  </div>
+</div>
+
+<!-- CRUZE -->
+<div class="carro">
+  <div class="carousel">
+    <img src="CRUZE%20(8).jpeg">
+    <img src="CRUZE%20(1).jpeg">
+    <img src="CRUZE%20(2).jpeg">
+    <img src="CRUZE%20(3).jpeg">
+    <img src="CRUZE%20(4).jpeg">
+    <img src="CRUZE%20(5).jpeg">
+    <img src="CRUZE%20(6).jpeg">
+    <img src="CRUZE%20(7).jpeg">
+    <img src="CRUZE%20(9).jpeg">
+    <img src="CRUZE%20(10).jpeg">
+    <img src="CRUZE%20(11).jpeg">
+    <img src="CRUZE%20(12).jpeg">
+    <img src="CRUZE%20(13).jpeg">
+    <button class="prev">&#10094;</button>
+    <button class="next">&#10095;</button>
+  </div>
+  <div class="info">
+    <h2>Chevrolet Cruze LT 1.8 Automático - 2013</h2>
+    <p>✅ Completo – ar, direção, vidros, som original, rodas liga leve<br>
+    ✅ Câmbio Automático<br>
+    ✅ 128.316 km rodados<br>
+    ✅ Cautelar aprovada<br>
+    ✅ Versão LT – ótimo equilíbrio entre desempenho e conforto<br>
+    ✅ Documentação em dia</p>
+    <p class="preco">R$ 55.900,00</p>
+    <a href="https://wa.me/5511955203353?text=Olá! Tenho interesse no Cruze 2013." target="_blank" class="btn-whatsapp">Falar no WhatsApp</a>
+  </div>
+</div>
+
+
+</section>
+
+<footer>
+  <p>Longitude Motors © 2025</p>
+</footer>
+
+<!-- Botões fixos -->
+<div class="whatsapp-float" onclick="toggleWhatsAppBox()">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp">
+</div>
+<a href="https://www.instagram.com/longitudemotors/" target="_blank" class="instagram-float">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png" alt="Instagram">
+</a>
+
+<div class="whatsapp-box" id="whatsappBox">
+  <h3>Fale conosco</h3>
+  <a href="https://wa.me/5511955203353" target="_blank">📲 Eduardo (11) 95520-3353</a>
+  <a href="https://wa.me/5511989633549" target="_blank">📲 Lucas (11) 98963-3549</a>
+  <a href="https://wa.me/5511981857217" target="_blank">📲 Humberto (11) 98185-7217</a>
+  <a href="https://wa.me/5511970367417" target="_blank">📑 Isabella (11) 97036-7417</a>
+</div>
+
+<script>
+  // Carrossel
+  document.querySelectorAll(".carousel").forEach(carousel => {
+    let index = 0;
+    const images = carousel.querySelectorAll("img");
+    if(images.length > 0) images[0].classList.add("active");
+
+    const showImage = (i) => {
+      images.forEach(img => img.classList.remove("active"));
+      images[i].classList.add("active");
+    };
+
+    carousel.querySelector(".prev").addEventListener("click", () => {
+      index = (index - 1 + images.length) % images.length;
+      showImage(index);
+    });
+    carousel.querySelector(".next").addEventListener("click", () => {
+      index = (index + 1) % images.length;
+      showImage(index);
+    });
+  });
+
+  // WhatsApp Box
+  function toggleWhatsAppBox() {
+    const box = document.getElementById("whatsappBox");
+    box.style.display = (box.style.display === "block") ? "none" : "block";
+  }
+</script>
+
+<!-- Lightbox -->
+<div id="lightbox" style="display:none; position:fixed; top:0; left:0; width:100%; height:100%; background:rgba(0,0,0,0.9); align-items:center; justify-content:center; z-index:1000; flex-direction:column;">
+  <span id="close" style="color:white; font-size:30px; position:absolute; top:20px; right:30px; cursor:pointer;">✖</span>
+  <img id="lightbox-img" src="" style="max-width:90%; max-height:80%; border-radius:10px;">
+  <div style="margin-top:20px;">
+    <button id="prev" style="font-size:24px; margin:0 20px; cursor:pointer;">⬅</button>
+    <button id="next" style="font-size:24px; margin:0 20px; cursor:pointer;">➡</button>
+  </div>
+</div>
+
+<script>
+  const lightbox = document.getElementById("lightbox");
+  const lightboxImg = document.getElementById("lightbox-img");
+  const closeBtn = document.getElementById("close");
+  const prevBtn = document.getElementById("prev");
+  const nextBtn = document.getElementById("next");
+
+  let currentGroup = [];
+  let currentIndex = 0;
+
+  // Para cada carrossel, criar grupo próprio
+  document.querySelectorAll(".carousel").forEach(carousel => {
+    const imgs = carousel.querySelectorAll("img");
+
+    imgs.forEach((img, i) => {
+      img.addEventListener("click", () => {
+        currentGroup = Array.from(imgs); // grupo = só as imagens desse card
+        currentIndex = i;
+        lightboxImg.src = img.src;
+        lightbox.style.display = "flex";
+      });
+    });
+  });
+
+  // Botões navegação
+  prevBtn.addEventListener("click", () => {
+    if (currentGroup.length > 0) {
+      currentIndex = (currentIndex - 1 + currentGroup.length) % currentGroup.length;
+      lightboxImg.src = currentGroup[currentIndex].src;
+    }
+  });
+
+  nextBtn.addEventListener("click", () => {
+    if (currentGroup.length > 0) {
+      currentIndex = (currentIndex + 1) % currentGroup.length;
+      lightboxImg.src = currentGroup[currentIndex].src;
+    }
+  });
+
+  // Fechar
+  closeBtn.addEventListener("click", () => {
+    lightbox.style.display = "none";
+  });
+</script>
+
+
+
+</body>
+</html>

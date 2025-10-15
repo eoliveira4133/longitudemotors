@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:g="http://base.google.com/ns/1.0">
+  <channel>
+    <title>Longitude Motors</title>
+    <link>https://eoliveira4133.github.io/longitudemotors/</link>
+    <description>Veículos seminovos com procedência, garantia e qualidade</description>
+
+    <item>
+      <g:id>1</g:id>
+      <g:title>Volkswagen Amarok 2015 Diesel 4x4</g:title>
+      <g:description>Completa, 4x4, Diesel, ótima para trabalho e lazer.</g:description>
+      <g:link>https://wa.me/5511955203353?text=Tenho interesse na Amarok 2015</g:link>
+      <g:image_link>https://eoliveira4133.github.io/longitudemotors/AMAROK%20(1).jpeg</g:image_link>
+      <g:price>118900.00 BRL</g:price>
+      <g:condition>used</g:condition>
+      <g:availability>in stock</g:availability>
+    </item>
+
+    <item>
+      <g:id>2</g:id>
+      <g:title>Chevrolet Montana 1.4 2014</g:title>
+      <g:description>Completa, ar-condicionado, direção hidráulica, ótimo custo-benefício.</g:description>
+      <g:link>https://wa.me/5511955203353?text=Tenho interesse na Montana 2014</g:link>
+      <g:image_link>https://eoliveira4133.github.io/longitudemotors/montana1.jpg</g:image_link>
+      <g:price>42900.00 BRL</g:price>
+      <g:condition>used</g:condition>
+      <g:availability>in stock</g:availability>
+    </item>
+
+    <item>
+      <g:id>3</g:id>
+      <g:title>Fiat Punto 1.6 2015</g:title>
+      <g:description>Completo, ótimo estado, financiamento facilitado.</g:description>
+      <g:link>https://wa.me/5511955203353?text=Tenho interesse no Punto</g:link>
+      <g:image_link>https://eoliveira4133.github.io/longitudemotors/punto1%20(1).jpeg</g:image_link>
+      <g:price>45900.00 BRL</g:price>
+      <g:condition>used</g:condition>
+      <g:availability>in stock</g:availability>
+    </item>
+
+  </channel>
+</rss>

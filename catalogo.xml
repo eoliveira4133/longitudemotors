@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<listings>
+  <title>Longitudemotors – Veículos</title>
+
+  <!-- MONTANA -->
+  <listing>
+    <!-- várias imagens possíveis -->
+    <image>
+      <url>https://raw.githubusercontent.com/eoliveira4133/longitudemotors/main/montana1.jpg</url>
+    </image>
+    <image>
+      <url>https://raw.githubusercontent.com/eoliveira4133/longitudemotors/main/montana1%20(1).jpg</url>
+    </image>
+    <image>
+      <url>https://raw.githubusercontent.com/eoliveira4133/longitudemotors/main/montana1%20(2).jpg</url>
+    </image>
+    <!-- mais imagens se quiser -->
+    <vehicle_id>montana_2014</vehicle_id>
+    <title>Chevrolet Montana 1.4 2014 – Completa</title>
+    <description>
+      <![CDATA[
+        <p>📍 Veículo em excelente estado de conservação</p>
+        <p>✅ 2014, 1.4 Flex, 161.147 km<br>
+        ✅ Completa: ar, direção, vidros, ABS, airbag, som<br>
+        ✅ Caçamba grande, baixo custo de manutenção</p>
+        <p class="preco">R$ 42.900,00</p>
+      ]]>
+    </description>
+    <url>https://wa.me/5511955203353?text=Olá! Tenho interesse na Montana 2014.</url>
+    <price>42900.00 BRL</price>
+    <state_of_vehicle>USED</state_of_vehicle>
+    <make>Chevrolet</make>
+    <model>Montana</model>
+    <year>2014</year>
+  </listing>
+
+  <!-- PUNTO -->
+  <listing>
+    <image>
+      <url>https://raw.githubusercontent.com/eoliveira4133/longitudemotors/main/punto1%20(3).jpeg</url>
+    </image>
+    <image>
+      <url>https://raw.githubusercontent.com/eoliveira4133/longitudemotors/main/punto1%20(5).jpeg</url>
+    </image>
+    <!-- continue com as outras imagens -->
+    <vehicle_id>punto_2015</vehicle_id>
+    <title>Fiat Punto 1.6 – 2015 Completo</title>
+    <description>
+      <![CDATA[
+        <p>✅ Vidros elétricos nas 4 portas<br>
+        ✅ Direção, ar-condicionado, travas e mais conforto<br>
+        📍 157.000 km<br>
+        🚨 Passagem por leilão (não consta no doc)<br>
+        💳 Financiamento bancário em até 60x</p>
+        <p class="preco">R$ 45.900,00</p>
+      ]]>
+    </description>
+    <url>https://wa.me/5511955203353?text=Olá! Tenho interesse no Punto.</url>
+    <price>45900.00 BRL</price>
+    <state_of_vehicle>USED</state_of_vehicle>
+    <make>Fiat</make>
+    <model>Punto</model>
+    <year>2015</year>
+  </listing>
+
+</listings>

@@ -17,7 +17,13 @@
     </mileage>
     <body_style>Pickup</body_style>
     <state_of_vehicle>used</state_of_vehicle>
-    <street_address>Avenida celso Garcia, 3979</street_address>
+    <address format="simple">
+      <component name="addr1">Avenida Celso Garcia, 3979</component>
+      <component name="city">São Paulo</component>
+      <component name="region">SP</component>
+      <component name="country">Brasil</component>
+    </address>
+    <neighborhood>Tatuapé</neighborhood>
     <image><url>https://raw.githubusercontent.com/eoliveira4133/longitudemotors/main/montana1.jpg</url></image>
     <image><url>https://raw.githubusercontent.com/eoliveira4133/longitudemotors/main/montana1%20(1).jpg</url></image>
     <image><url>https://raw.githubusercontent.com/eoliveira4133/longitudemotors/main/montana1%20(2).jpg</url></image>
@@ -28,12 +34,6 @@
     <image><url>https://raw.githubusercontent.com/eoliveira4133/longitudemotors/main/montana1%20(7).jpg</url></image>
     <image><url>https://raw.githubusercontent.com/eoliveira4133/longitudemotors/main/montana1%20(8).jpg</url></image>
     <image><url>https://raw.githubusercontent.com/eoliveira4133/longitudemotors/main/montana1%20(9).jpg</url></image>
-    <address format="simple">
-      <component name="city">São Paulo</component>
-      <component name="region">SP</component>
-      <component name="country">Brasil</component>
-    </address>
-    <neighborhood>Tatuapé</neighborhood>
   </listing>
 
   <listing>
@@ -51,7 +51,13 @@
     </mileage>
     <body_style>Hatchback</body_style>
     <state_of_vehicle>used</state_of_vehicle>
-    <street_address>Avenida celso Garcia, 3979</street_address>
+    <address format="simple">
+      <component name="addr1">Avenida Celso Garcia, 3979</component>
+      <component name="city">São Paulo</component>
+      <component name="region">SP</component>
+      <component name="country">Brasil</component>
+    </address>
+    <neighborhood>Tatuapé</neighborhood>
     <image><url>https://raw.githubusercontent.com/eoliveira4133/longitudemotors/main/punto1%20(3).jpeg</url></image>
     <image><url>https://raw.githubusercontent.com/eoliveira4133/longitudemotors/main/punto1%20(5).jpeg</url></image>
     <image><url>https://raw.githubusercontent.com/eoliveira4133/longitudemotors/main/punto1%20(1).jpeg</url></image>
@@ -62,12 +68,6 @@
     <image><url>https://raw.githubusercontent.com/eoliveira4133/longitudemotors/main/punto1%20(8).jpeg</url></image>
     <image><url>https://raw.githubusercontent.com/eoliveira4133/longitudemotors/main/punto1%20(9).jpeg</url></image>
     <image><url>https://raw.githubusercontent.com/eoliveira4133/longitudemotors/main/punto1%20(10).jpeg</url></image>
-    <address format="simple">
-      <component name="city">São Paulo</component>
-      <component name="region">SP</component>
-      <component name="country">Brasil</component>
-    </address>
-    <neighborhood>Tatuapé</neighborhood>
   </listing>
 
   <listing>
@@ -85,7 +85,13 @@
     </mileage>
     <body_style>Hatchback</body_style>
     <state_of_vehicle>used</state_of_vehicle>
-    <street_address>Avenida celso Garcia, 3979</street_address>
+    <address format="simple">
+      <component name="addr1">Avenida Celso Garcia, 3979</component>
+      <component name="city">São Paulo</component>
+      <component name="region">SP</component>
+      <component name="country">Brasil</component>
+    </address>
+    <neighborhood>Tatuapé</neighborhood>
     <image><url>https://raw.githubusercontent.com/eoliveira4133/longitudemotors/main/ARGO%20(1).jpeg</url></image>
     <image><url>https://raw.githubusercontent.com/eoliveira4133/longitudemotors/main/ARGO%20(2).jpeg</url></image>
     <image><url>https://raw.githubusercontent.com/eoliveira4133/longitudemotors/main/ARGO%20(3).jpeg</url></image>
@@ -96,12 +102,6 @@
     <image><url>https://raw.githubusercontent.com/eoliveira4133/longitudemotors/main/ARGO%20(8).jpeg</url></image>
     <image><url>https://raw.githubusercontent.com/eoliveira4133/longitudemotors/main/ARGO%20(9).jpeg</url></image>
     <image><url>https://raw.githubusercontent.com/eoliveira4133/longitudemotors/main/ARGO%20(10).jpeg</url></image>
-    <address format="simple">
-      <component name="city">São Paulo</component>
-      <component name="region">SP</component>
-      <component name="country">Brasil</component>
-    </address>
-    <neighborhood>Tatuapé</neighborhood>
   </listing>
 
   <listing>
@@ -119,18 +119,18 @@
     </mileage>
     <body_style>Hatchback</body_style>
     <state_of_vehicle>used</state_of_vehicle>
-    <street_address>Avenida celso Garcia, 3979</street_address>
-    <image><url>https://raw.githubusercontent.com/eoliveira4133/longitudemotors/main/GOLCITY2015%20(7).jpeg</url></image>
-    <image><url>https://raw.githubusercontent.com/eoliveira4133/longitudemotors/main/GOLCITY2015%20(1).jpeg</url></image>
-    <image><url>https://raw.githubusercontent.com/eoliveira4133/longitudemotors/main/GOLCITY2015%20(2).jpeg</url></image>
-    <image><url>https://raw.githubusercontent.com/eoliveira4133/longitudemotors/main/GOLCITY2015%20(3).jpeg</url></image>
-    <image><url>https://raw.githubusercontent.com/eoliveira4133/longitudemotors/main/GOLCITY2015%20(4).jpeg</url></image>
     <address format="simple">
+      <component name="addr1">Avenida Celso Garcia, 3979</component>
       <component name="city">São Paulo</component>
       <component name="region">SP</component>
       <component name="country">Brasil</component>
     </address>
     <neighborhood>Tatuapé</neighborhood>
+    <image><url>https://raw.githubusercontent.com/eoliveira4133/longitudemotors/main/GOLCITY2015%20(7).jpeg</url></image>
+    <image><url>https://raw.githubusercontent.com/eoliveira4133/longitudemotors/main/GOLCITY2015%20(1).jpeg</url></image>
+    <image><url>https://raw.githubusercontent.com/eoliveira4133/longitudemotors/main/GOLCITY2015%20(2).jpeg</url></image>
+    <image><url>https://raw.githubusercontent.com/eoliveira4133/longitudemotors/main/GOLCITY2015%20(3).jpeg</url></image>
+    <image><url>https://raw.githubusercontent.com/eoliveira4133/longitudemotors/main/GOLCITY2015%20(4).jpeg</url></image>
   </listing>
 
   <listing>
@@ -148,18 +148,18 @@
     </mileage>
     <body_style>Sedan</body_style>
     <state_of_vehicle>used</state_of_vehicle>
-    <street_address>Avenida celso Garcia, 3979</street_address>
-    <image><url>https://raw.githubusercontent.com/eoliveira4133/longitudemotors/main/CRUZE%20(8).jpeg</url></image>
-    <image><url>https://raw.githubusercontent.com/eoliveira4133/longitudemotors/main/CRUZE%20(1).jpeg</url></image>
-    <image><url>https://raw.githubusercontent.com/eoliveira4133/longitudemotors/main/CRUZE%20(2).jpeg</url></image>
-    <image><url>https://raw.githubusercontent.com/eoliveira4133/longitudemotors/main/CRUZE%20(3).jpeg</url></image>
-    <image><url>https://raw.githubusercontent.com/eoliveira4133/longitudemotors/main/CRUZE%20(4).jpeg</url></image>
     <address format="simple">
+      <component name="addr1">Avenida Celso Garcia, 3979</component>
       <component name="city">São Paulo</component>
       <component name="region">SP</component>
       <component name="country">Brasil</component>
     </address>
     <neighborhood>Tatuapé</neighborhood>
+    <image><url>https://raw.githubusercontent.com/eoliveira4133/longitudemotors/main/CRUZE%20(8).jpeg</url></image>
+    <image><url>https://raw.githubusercontent.com/eoliveira4133/longitudemotors/main/CRUZE%20(1).jpeg</url></image>
+    <image><url>https://raw.githubusercontent.com/eoliveira4133/longitudemotors/main/CRUZE%20(2).jpeg</url></image>
+    <image><url>https://raw.githubusercontent.com/eoliveira4133/longitudemotors/main/CRUZE%20(3).jpeg</url></image>
+    <image><url>https://raw.githubusercontent.com/eoliveira4133/longitudemotors/main/CRUZE%20(4).jpeg</url></image>
   </listing>
 
   <listing>
@@ -177,16 +177,16 @@
     </mileage>
     <body_style>Hatchback</body_style>
     <state_of_vehicle>used</state_of_vehicle>
-    <street_address>Avenida celso Garcia, 3979</street_address>
-    <image><url>https://raw.githubusercontent.com/eoliveira4133/longitudemotors/main/peugeot208_1.jpeg</url></image>
-    <image><url>https://raw.githubusercontent.com/eoliveira4133/longitudemotors/main/peugeot208_2.jpeg</url></image>
-    <image><url>https://raw.githubusercontent.com/eoliveira4133/longitudemotors/main/peugeot208_3.jpeg</url></image>
     <address format="simple">
+      <component name="addr1">Avenida Celso Garcia, 3979</component>
       <component name="city">São Paulo</component>
       <component name="region">SP</component>
       <component name="country">Brasil</component>
     </address>
     <neighborhood>Tatuapé</neighborhood>
+    <image><url>https://raw.githubusercontent.com/eoliveira4133/longitudemotors/main/peugeot208_1.jpeg</url></image>
+    <image><url>https://raw.githubusercontent.com/eoliveira4133/longitudemotors/main/peugeot208_2.jpeg</url></image>
+    <image><url>https://raw.githubusercontent.com/eoliveira4133/longitudemotors/main/peugeot208_3.jpeg</url></image>
   </listing>
 
   <listing>
@@ -204,16 +204,16 @@
     </mileage>
     <body_style>Sedan</body_style>
     <state_of_vehicle>used</state_of_vehicle>
-    <street_address>Avenida celso Garcia, 3979</street_address>
-    <image><url>https://raw.githubusercontent.com/eoliveira4133/longitudemotors/main/vectra1.jpeg</url></image>
-    <image><url>https://raw.githubusercontent.com/eoliveira4133/longitudemotors/main/vectra2.jpeg</url></image>
-    <image><url>https://raw.githubusercontent.com/eoliveira4133/longitudemotors/main/vectra3.jpeg</url></image>
     <address format="simple">
+      <component name="addr1">Avenida Celso Garcia, 3979</component>
       <component name="city">São Paulo</component>
       <component name="region">SP</component>
       <component name="country">Brasil</component>
     </address>
     <neighborhood>Tatuapé</neighborhood>
+    <image><url>https://raw.githubusercontent.com/eoliveira4133/longitudemotors/main/vectra1.jpeg</url></image>
+    <image><url>https://raw.githubusercontent.com/eoliveira4133/longitudemotors/main/vectra2.jpeg</url></image>
+    <image><url>https://raw.githubusercontent.com/eoliveira4133/longitudemotors/main/vectra3.jpeg</url></image>
   </listing>
 
 </listings>

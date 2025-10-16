@@ -1,66 +1,197 @@
-<?xml version="1.0" encoding="utf-8"?>
-<listings>
-  <title>Longitudemotors – Veículos</title>
+<estoque>
+  <carro>
+    <nome>Chevrolet Montana 1.4 2014 – Completa</nome>
+    <descricao>Veículo em excelente estado de conservação. 2014, 1.4 Flex, 161.147 km. Completa: ar, direção, vidros, ABS, airbag, som. Caçamba grande, baixo custo de manutenção.</descricao>
+    <preco>42900.00</preco>
+    <link>https://wa.me/5511955203353?text=Olá! Tenho interesse na Montana 2014.</link>
+    <imagens>
+      <imagem>montana1.jpg</imagem>
+      <imagem>montana1%20(1).jpg</imagem>
+      <imagem>montana1%20(2).jpg</imagem>
+      <imagem>montana1%20(3).jpg</imagem>
+      <imagem>montana1%20(4).jpg</imagem>
+      <imagem>montana1%20(5).jpg</imagem>
+      <imagem>montana1%20(6).jpg</imagem>
+      <imagem>montana1%20(7).jpg</imagem>
+      <imagem>montana1%20(8).jpg</imagem>
+      <imagem>montana1%20(9).jpg</imagem>
+    </imagens>
+  </carro>
 
-  <!-- MONTANA -->
-  <listing>
-    <!-- várias imagens possíveis -->
-    <image>
-      <url>https://raw.githubusercontent.com/eoliveira4133/longitudemotors/main/montana1.jpg</url>
-    </image>
-    <image>
-      <url>https://raw.githubusercontent.com/eoliveira4133/longitudemotors/main/montana1%20(1).jpg</url>
-    </image>
-    <image>
-      <url>https://raw.githubusercontent.com/eoliveira4133/longitudemotors/main/montana1%20(2).jpg</url>
-    </image>
-    <!-- mais imagens se quiser -->
-    <vehicle_id>montana_2014</vehicle_id>
-    <title>Chevrolet Montana 1.4 2014 – Completa</title>
-    <description>
-      <![CDATA[
-        <p>📍 Veículo em excelente estado de conservação</p>
-        <p>✅ 2014, 1.4 Flex, 161.147 km<br>
-        ✅ Completa: ar, direção, vidros, ABS, airbag, som<br>
-        ✅ Caçamba grande, baixo custo de manutenção</p>
-        <p class="preco">R$ 42.900,00</p>
-      ]]>
-    </description>
-    <url>https://wa.me/5511955203353?text=Olá! Tenho interesse na Montana 2014.</url>
-    <price>42900.00 BRL</price>
-    <state_of_vehicle>USED</state_of_vehicle>
-    <make>Chevrolet</make>
-    <model>Montana</model>
-    <year>2014</year>
-  </listing>
+  <carro>
+    <nome>Fiat Punto 1.6 – 2015 Completo</nome>
+    <descricao>Vidros elétricos nas 4 portas. Direção, ar-condicionado, travas e mais conforto. 157.000 km. Passagem por leilão (não consta no doc). Financiamento bancário em até 60x.</descricao>
+    <preco>45900.00</preco>
+    <link>https://wa.me/5511955203353?text=Olá! Tenho interesse no Punto.</link>
+    <imagens>
+      <imagem>punto1%20(3).jpeg</imagem>
+      <imagem>punto1%20(5).jpeg</imagem>
+      <imagem>punto1%20(1).jpeg</imagem>
+      <imagem>punto1%20(2).jpeg</imagem>
+      <imagem>punto1%20(4).jpeg</imagem>
+      <imagem>punto1%20(6).jpeg</imagem>
+      <imagem>punto1%20(7).jpeg</imagem>
+      <imagem>punto1%20(8).jpeg</imagem>
+      <imagem>punto1%20(9).jpeg</imagem>
+      <imagem>punto1%20(10).jpeg</imagem>
+      <imagem>punto1%20(11).jpeg</imagem>
+      <imagem>punto1%20(12).jpeg</imagem>
+      <imagem>punto1%20(13).jpeg</imagem>
+      <imagem>punto1%20(14).jpeg</imagem>
+      <imagem>punto1%20(15).jpeg</imagem>
+    </imagens>
+  </carro>
 
-  <!-- PUNTO -->
-  <listing>
-    <image>
-      <url>https://raw.githubusercontent.com/eoliveira4133/longitudemotors/main/punto1%20(3).jpeg</url>
-    </image>
-    <image>
-      <url>https://raw.githubusercontent.com/eoliveira4133/longitudemotors/main/punto1%20(5).jpeg</url>
-    </image>
-    <!-- continue com as outras imagens -->
-    <vehicle_id>punto_2015</vehicle_id>
-    <title>Fiat Punto 1.6 – 2015 Completo</title>
-    <description>
-      <![CDATA[
-        <p>✅ Vidros elétricos nas 4 portas<br>
-        ✅ Direção, ar-condicionado, travas e mais conforto<br>
-        📍 157.000 km<br>
-        🚨 Passagem por leilão (não consta no doc)<br>
-        💳 Financiamento bancário em até 60x</p>
-        <p class="preco">R$ 45.900,00</p>
-      ]]>
-    </description>
-    <url>https://wa.me/5511955203353?text=Olá! Tenho interesse no Punto.</url>
-    <price>45900.00 BRL</price>
-    <state_of_vehicle>USED</state_of_vehicle>
-    <make>Fiat</make>
-    <model>Punto</model>
-    <year>2015</year>
-  </listing>
+  <carro>
+    <nome>FIAT ARGO 1.0 – 2021/2021</nome>
+    <descricao>Ano/Modelo: 2021/2021. Motor 1.0 Firefly econômico. Completo: direção elétrica, ar-condicionado, vidros e travas elétricas, multimídia Bluetooth/USB. Volante multifuncional. Câmbio manual de 5 marchas. Pneus em ótimo estado. Interior bem conservado. Revisões em dia. Financiamento em até 60x. Aceitamos troca – avaliamos seu usado!</descricao>
+    <preco>57900.00</preco>
+    <link>https://wa.me/5511955203353?text=Olá! Tenho interesse no Argo 2021.</link>
+    <imagens>
+      <imagem>ARGO%20(1).jpeg</imagem>
+      <imagem>ARGO%20(2).jpeg</imagem>
+      <imagem>ARGO%20(3).jpeg</imagem>
+      <imagem>ARGO%20(4).jpeg</imagem>
+      <imagem>ARGO%20(5).jpeg</imagem>
+      <imagem>ARGO%20(6).jpeg</imagem>
+      <imagem>ARGO%20(7).jpeg</imagem>
+      <imagem>ARGO%20(8).jpeg</imagem>
+      <imagem>ARGO%20(9).jpeg</imagem>
+      <imagem>ARGO%20(10).jpeg</imagem>
+      <imagem>ARGO%20(11).jpeg</imagem>
+      <imagem>ARGO%20(12).jpeg</imagem>
+    </imagens>
+  </carro>
 
-</listings>
+  <carro>
+    <nome>Volkswagen Gol 1.0 City 2015</nome>
+    <descricao>Completo (exceto direção hidráulica), econômico e de baixa manutenção. Ano/Modelo: 2015. Motor 1.0 econômico. Ar-condicionado. Vidros e travas elétricas. Revisões em dia. Documentação em ordem. Financiamento bancário em até 60x.</descricao>
+    <preco>34900.00</preco>
+    <link>https://wa.me/5511955203353?text=Olá! Tenho interesse no GOL 2015.</link>
+    <imagens>
+      <imagem>GOLCITY2015%20(7).jpeg</imagem>
+      <imagem>GOLCITY2015%20(1).jpeg</imagem>
+      <imagem>GOLCITY2015%20(2).jpeg</imagem>
+      <imagem>GOLCITY2015%20(3).jpeg</imagem>
+      <imagem>GOLCITY2015%20(4).jpeg</imagem>
+      <imagem>GOLCITY2015%20(5).jpeg</imagem>
+      <imagem>GOLCITY2015%20(6).jpeg</imagem>
+      <imagem>GOLCITY2015%20(8).jpeg</imagem>
+      <imagem>GOLCITY2015%20(9).jpeg</imagem>
+    </imagens>
+  </carro>
+
+  <carro>
+    <nome>Chevrolet Cruze LT 1.8 Automático - 2013</nome>
+    <descricao>Completo – ar, direção, vidros, som original, rodas liga leve. Câmbio Automático. 128.316 km rodados. Cautelar aprovada. Versão LT – ótimo equilíbrio entre desempenho e conforto. Documentação em dia.</descricao>
+    <preco>55900.00</preco>
+    <link>https://wa.me/5511955203353?text=Olá! Tenho interesse no Cruze 2013.</link>
+    <imagens>
+      <imagem>CRUZE%20(8).jpeg</imagem>
+      <imagem>CRUZE%20(1).jpeg</imagem>
+      <imagem>CRUZE%20(2).jpeg</imagem>
+      <imagem>CRUZE%20(3).jpeg</imagem>
+      <imagem>CRUZE%20(4).jpeg</imagem>
+      <imagem>CRUZE%20(5).jpeg</imagem>
+      <imagem>CRUZE%20(6).jpeg</imagem>
+      <imagem>CRUZE%20(7).jpeg</imagem>
+      <imagem>CRUZE%20(9).jpeg</imagem>
+      <imagem>CRUZE%20(10).jpeg</imagem>
+      <imagem>CRUZE%20(11).jpeg</imagem>
+      <imagem>CRUZE%20(12).jpeg</imagem>
+      <imagem>CRUZE%20(13).jpeg</imagem>
+    </imagens>
+  </carro>
+
+  <carro>
+    <nome>VW AMAROK 2.0 TDI AUT DIESEL</nome>
+    <descricao>Ano/Modelo: 2013. Laudo cautelar APROVADO. Bancos em couro. Tração 4x4. Pneus novos. Revisões em dia. Ar-condicionado, direção hidráulica, vidros e travas elétricas.</descricao>
+    <preco>92900.00</preco>
+    <link>https://wa.me/5511955203353?text=Olá! Tenho interesse na AMAROK 2013.</link>
+    <imagens>
+      <imagem>AMAROK%20(8).jpeg</imagem>
+      <imagem>AMAROK%20(1).jpeg</imagem>
+      <imagem>AMAROK%20(2).jpeg</imagem>
+      <imagem>AMAROK%20(3).jpeg</imagem>
+      <imagem>AMAROK%20(4).jpeg</imagem>
+      <imagem>AMAROK%20(5).jpeg</imagem>
+      <imagem>AMAROK%20(6).jpeg</imagem>
+      <imagem>AMAROK%20(7).jpeg</imagem>
+      <imagem>AMAROK%20(9).jpeg</imagem>
+      <imagem>AMAROK%20(10).jpeg</imagem>
+      <imagem>AMAROK%20(11).jpeg</imagem>
+      <imagem>AMAROK%20(12).jpeg</imagem>
+      <imagem>AMAROK%20(13).jpeg</imagem>
+      <imagem>AMAROK%20(14).jpeg</imagem>
+      <imagem>AMAROK%20(15).jpeg</imagem>
+    </imagens>
+  </carro>
+
+  <carro>
+    <nome>Peugeot 208 Allure 1.6 2018</nome>
+    <descricao>Completo + Multimídia + Teto Panorâmico! Elegância, conforto e tecnologia em um só carro! Ano/Modelo: 2018. Motorização 1.6 Flex. Câmbio manual. Teto panorâmico. Central multimídia com tela touch. Ar-condicionado digital. Vidros e travas elétricos. Direção elétrica. Rodas de liga leve aro 15”. Faróis de neblina. Computador de bordo. Acabamento interno sofisticado. Carro extremamente bem conservado, pneus novos, interior impecável e revisão em dia.</descricao>
+    <preco>50900.00</preco>
+    <link>https://wa.me/5511955203353?text=Olá! Tenho interesse no 208 com teto panorâmico</link>
+    <imagens>
+      <imagem>peugeot%20(5).jpeg</imagem>
+      <imagem>peugeot%20(1).jpeg</imagem>
+      <imagem>peugeot%20(2).jpeg</imagem>
+      <imagem>peugeot%20(3).jpeg</imagem>
+      <imagem>peugeot%20(4).jpeg</imagem>
+      <imagem>peugeot%20(6).jpeg</imagem>
+      <imagem>peugeot%20(7).jpeg</imagem>
+      <imagem>peugeot%20(8).jpeg</imagem>
+      <imagem>peugeot%20(9).jpeg</imagem>
+    </imagens>
+  </carro>
+
+  <carro>
+    <nome>Fiorino 1.3 ano 2010 básica</nome>
+    <descricao>Pneus novos. Km: 400.000. Laudo: aprova com restrição. Abaixo da fipe (R$31.000). Sem leilão e sem sinistro.</descricao>
+    <preco>29900.00</preco>
+    <link>https://wa.me/5511955203353?text=Olá! Tenho interesse na fiorino 2010</link>
+    <imagens>
+      <imagem>FIORINO%20(1).jpg</imagem>
+      <imagem>FIORINO%20(2).jpg</imagem>
+      <imagem>FIORINO%20(3).jpg</imagem>
+      <imagem>FIORINO%20(4).jpg</imagem>
+      <imagem>FIORINO%20(5).jpg</imagem>
+      <imagem>FIORINO%20(6).jpg</imagem>
+      <imagem>FIORINO%20(7).jpg</imagem>
+      <imagem>FIORINO%20(8).jpg</imagem>
+      <imagem>FIORINO%20(9).jpg</imagem>
+      <imagem>FIORINO%20(10).jpg</imagem>
+      <imagem>FIORINO%20(11).jpg</imagem>
+      <imagem>FIORINO%20(12).jpg</imagem>
+      <imagem>FIORINO%20(13).jpg</imagem>
+      <imagem>FIORINO%20(14).jpg</imagem>
+      <imagem>FIORINO%20(15).jpg</imagem>
+    </imagens>
+  </carro>
+
+  <carro>
+    <nome>Chevrolet Vectra Collection 2011 Automático</nome>
+    <descricao>Cautelar Aprovado. Financiamento em até 60x. Chegou a oportunidade de dirigir com conforto, estilo e segurança! Esse Vectra Collection 2011 automático está impecável, com bancos em couro, central multimídia e interior bem conservado, oferecendo toda a sofisticação que você procura. Ano/Modelo: 2011. Câmbio: Automático. Bancos em couro. Multimídia completa com câmera de ré. Cautelar 100% aprovado. Financiamento facilitado em até 60x. Perfeito para quem busca um sedã confortável, espaçoso e com ótimo custo-benefício.</descricao>
+    <preco>48900.00</preco>
+    <link>https://wa.me/5511955203353?text=Olá! Tenho interesse nesse lindo vectra</link>
+    <imagens>
+      <imagem>vectra%20(12).jpg</imagem>
+      <imagem>vectra%20(1).jpg</imagem>
+      <imagem>vectra%20(2).jpg</imagem>
+      <imagem>vectra%20(3).jpg</imagem>
+      <imagem>vectra%20(4).jpg</imagem>
+      <imagem>vectra%20(5).jpg</imagem>
+      <imagem>vectra%20(6).jpg</imagem>
+      <imagem>vectra%20(7).jpg</imagem>
+      <imagem>vectra%20(8).jpg</imagem>
+      <imagem>vectra%20(9).jpg</imagem>
+      <imagem>vectra%20(10).jpg</imagem>
+      <imagem>vectra%20(11).jpg</imagem>
+      <imagem>vectra%20(13).jpg</imagem>
+      <imagem>vectra%20(14).jpg</imagem>
+      <imagem>vectra%20(15).jpg</imagem>
+      <imagem>vectra%20(16).jpg</imagem>
+      <imagem>vectra%20(17).jpg</imagem>
+    </imagens>
+  </carro>
+</estoque>

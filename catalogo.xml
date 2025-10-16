@@ -1,19 +1,259 @@
-<?xml version="1.0" encoding="utf-8"?><listings><title>Estoque Longitude Motors</title>
+<?xml version="1.0" encoding="utf-8"?>
+<listings>
+  <title>Estoque Longitude Motors</title>
 
-<listing><vehicle_id>montana</vehicle_id><title>Chevrolet Montana 1.4 2014 – Completa</title><description>Veículo em excelente estado de conservação. 2014, 1.4 Flex, 161.147 km. Completa: ar, direção, vidros, ABS, airbag, som. Caçamba grande, baixo custo de manutenção.</description><url>https://wa.me/5511955203353?text=Olá! Tenho interesse na Montana 2014.</url><price>42,900.00 BRL</price><make>Chevrolet</make><model>Montana 1.4</model><year>2014</year><mileage><unit>KM</unit><value>161147</value></mileage><body_style>Pickup</body_style><image><url>montana1.jpg</url></image><image><url>montana1%20(1).jpg</url></image><image><url>montana1%20(2).jpg</url></image><image><url>montana1%20(3).jpg</url></image><image><url>montana1%20(4).jpg</url></image><image><url>montana1%20(5).jpg</url></image><image><url>montana1%20(6).jpg</url></image><image><url>montana1%20(7).jpg</url></image><image><url>montana1%20(8).jpg</url></image><image><url>montana1%20(9).jpg</url></image><address format="simple"><component name="city">São Paulo</component><component name="region">SP</component><component name="country">Brasil</component></address><neighborhood>Tatuapé</neighborhood></listing>
+  <listing>
+    <vehicle_id>montana</vehicle_id>
+    <title>Chevrolet Montana 1.4 2014 – Completa</title>
+    <description>Veículo em excelente estado de conservação. 2014, 1.4 Flex, 161.147 km. Completa: ar, direção, vidros, ABS, airbag, som. Caçamba grande, baixo custo de manutenção.</description>
+    <url>https://wa.me/5511955203353?text=Olá! Tenho interesse na Montana 2014.</url>
+    <price>42,900.00 BRL</price>
+    <make>Chevrolet</make>
+    <model>Montana 1.4</model>
+    <year>2014</year>
+    <mileage>
+      <unit>KM</unit>
+      <value>161147</value>
+    </mileage>
+    <body_style>Pickup</body_style>
+    <image><url>montana1.jpg</url></image>
+    <image><url>montana1%20(1).jpg</url></image>
+    <image><url>montana1%20(2).jpg</url></image>
+    <image><url>montana1%20(3).jpg</url></image>
+    <image><url>montana1%20(4).jpg</url></image>
+    <image><url>montana1%20(5).jpg</url></image>
+    <image><url>montana1%20(6).jpg</url></image>
+    <image><url>montana1%20(7).jpg</url></image>
+    <image><url>montana1%20(8).jpg</url></image>
+    <image><url>montana1%20(9).jpg</url></image>
+    <address format="simple">
+      <component name="city">São Paulo</component>
+      <component name="region">SP</component>
+      <component name="country">Brasil</component>
+    </address>
+    <neighborhood>Tatuapé</neighborhood>
+  </listing>
 
-<listing><vehicle_id>punto</vehicle_id><title>Fiat Punto 1.6 – 2015 Completo</title><description>Vidros elétricos nas 4 portas. Direção, ar-condicionado, travas e mais conforto. 157.000 km. Passagem por leilão (não consta no doc). Financiamento bancário em até 60x.</description><url>https://wa.me/5511955203353?text=Olá! Tenho interesse no Punto.</url><price>45,900.00 BRL</price><make>Fiat</make><model>Punto 1.6</model><year>2015</year><mileage><unit>KM</unit><value>157000</value></mileage><body_style>Hatchback</body_style><image><url>punto1%20(3).jpeg</url></image><image><url>punto1%20(5).jpeg</url></image><image><url>punto1%20(1).jpeg</url></image><image><url>punto1%20(2).jpeg</url></image><image><url>punto1%20(4).jpeg</url></image><image><url>punto1%20(6).jpeg</url></image><image><url>punto1%20(7).jpeg</url></image><image><url>punto1%20(8).jpeg</url></image><image><url>punto1%20(9).jpeg</url></image><image><url>punto1%20(10).jpeg</url></image><address format="simple"><component name="city">São Paulo</component><component name="region">SP</component><component name="country">Brasil</component></address><neighborhood>Tatuapé</neighborhood></listing>
+  <listing>
+    <vehicle_id>punto</vehicle_id>
+    <title>Fiat Punto 1.6 – 2015 Completo</title>
+    <description>Vidros elétricos nas 4 portas. Direção, ar-condicionado, travas e mais conforto. 157.000 km. Passagem por leilão (não consta no doc). Financiamento bancário em até 60x.</description>
+    <url>https://wa.me/5511955203353?text=Olá! Tenho interesse no Punto.</url>
+    <price>45,900.00 BRL</price>
+    <make>Fiat</make>
+    <model>Punto 1.6</model>
+    <year>2015</year>
+    <mileage>
+      <unit>KM</unit>
+      <value>157000</value>
+    </mileage>
+    <body_style>Hatchback</body_style>
+    <image><url>punto1%20(3).jpeg</url></image>
+    <image><url>punto1%20(5).jpeg</url></image>
+    <image><url>punto1%20(1).jpeg</url></image>
+    <image><url>punto1%20(2).jpeg</url></image>
+    <image><url>punto1%20(4).jpeg</url></image>
+    <image><url>punto1%20(6).jpeg</url></image>
+    <image><url>punto1%20(7).jpeg</url></image>
+    <image><url>punto1%20(8).jpeg</url></image>
+    <image><url>punto1%20(9).jpeg</url></image>
+    <image><url>punto1%20(10).jpeg</url></image>
+    <address format="simple">
+      <component name="city">São Paulo</component>
+      <component name="region">SP</component>
+      <component name="country">Brasil</component>
+    </address>
+    <neighborhood>Tatuapé</neighborhood>
+  </listing>
 
-<listing><vehicle_id>argo</vehicle_id><title>FIAT ARGO 1.0 – 2021/2021</title><description>Motor 1.0 Firefly econômico. Completo: direção elétrica, ar-condicionado, vidros e travas elétricas, multimídia Bluetooth/USB. Volante multifuncional, câmbio manual, revisões em dia. Financiamento em até 60x.</description><url>https://wa.me/5511955203353?text=Olá! Tenho interesse no Argo 2021.</url><price>57,900.00 BRL</price><make>Fiat</make><model>Argo 1.0</model><year>2021</year><mileage><unit>KM</unit><value>0</value></mileage><body_style>Hatchback</body_style><image><url>ARGO%20(1).jpeg</url></image><image><url>ARGO%20(2).jpeg</url></image><image><url>ARGO%20(3).jpeg</url></image><image><url>ARGO%20(4).jpeg</url></image><image><url>ARGO%20(5).jpeg</url></image><image><url>ARGO%20(6).jpeg</url></image><image><url>ARGO%20(7).jpeg</url></image><image><url>ARGO%20(8).jpeg</url></image><image><url>ARGO%20(9).jpeg</url></image><image><url>ARGO%20(10).jpeg</url></image><address format="simple"><component name="city">São Paulo</component><component name="region">SP</component><component name="country">Brasil</component></address><neighborhood>Tatuapé</neighborhood></listing>
+  <listing>
+    <vehicle_id>argo</vehicle_id>
+    <title>FIAT ARGO 1.0 – 2021/2021</title>
+    <description>Motor 1.0 Firefly econômico. Completo: direção elétrica, ar-condicionado, vidros e travas elétricas, multimídia Bluetooth/USB. Volante multifuncional, câmbio manual, revisões em dia. Financiamento em até 60x.</description>
+    <url>https://wa.me/5511955203353?text=Olá! Tenho interesse no Argo 2021.</url>
+    <price>57,900.00 BRL</price>
+    <make>Fiat</make>
+    <model>Argo 1.0</model>
+    <year>2021</year>
+    <mileage>
+      <unit>KM</unit>
+      <value>0</value>
+    </mileage>
+    <body_style>Hatchback</body_style>
+    <image><url>ARGO%20(1).jpeg</url></image>
+    <image><url>ARGO%20(2).jpeg</url></image>
+    <image><url>ARGO%20(3).jpeg</url></image>
+    <image><url>ARGO%20(4).jpeg</url></image>
+    <image><url>ARGO%20(5).jpeg</url></image>
+    <image><url>ARGO%20(6).jpeg</url></image>
+    <image><url>ARGO%20(7).jpeg</url></image>
+    <image><url>ARGO%20(8).jpeg</url></image>
+    <image><url>ARGO%20(9).jpeg</url></image>
+    <image><url>ARGO%20(10).jpeg</url></image>
+    <address format="simple">
+      <component name="city">São Paulo</component>
+      <component name="region">SP</component>
+      <component name="country">Brasil</component>
+    </address>
+    <neighborhood>Tatuapé</neighborhood>
+  </listing>
 
-<listing><vehicle_id>golcity2015</vehicle_id><title>Volkswagen Gol 1.0 City 2015</title><description>Completo (exceto direção hidráulica), econômico e de baixa manutenção. Motor 1.0, ar-condicionado, vidros e travas elétricas, revisões em dia, documentação em ordem. Financiamento bancário em até 60x.</description><url>https://wa.me/5511955203353?text=Olá! Tenho interesse no GOL 2015.</url><price>34,900.00 BRL</price><make>Volkswagen</make><model>Gol City 1.0</model><year>2015</year><mileage><unit>KM</unit><value>0</value></mileage><body_style>Hatchback</body_style><image><url>GOLCITY2015%20(7).jpeg</url></image><image><url>GOLCITY2015%20(1).jpeg</url></image><image><url>GOLCITY2015%20(2).jpeg</url></image><image><url>GOLCITY2015%20(3).jpeg</url></image><image><url>GOLCITY2015%20(4).jpeg</url></image><address format="simple"><component name="city">São Paulo</component><component name="region">SP</component><component name="country">Brasil</component></address><neighborhood>Tatuapé</neighborhood></listing>
+  <listing>
+    <vehicle_id>golcity2015</vehicle_id>
+    <title>Volkswagen Gol 1.0 City 2015</title>
+    <description>Completo (exceto direção hidráulica), econômico e de baixa manutenção. Motor 1.0, ar-condicionado, vidros e travas elétricas, revisões em dia, documentação em ordem. Financiamento bancário em até 60x.</description>
+    <url>https://wa.me/5511955203353?text=Olá! Tenho interesse no GOL 2015.</url>
+    <price>34,900.00 BRL</price>
+    <make>Volkswagen</make>
+    <model>Gol City 1.0</model>
+    <year>2015</year>
+    <mileage>
+      <unit>KM</unit>
+      <value>0</value>
+    </mileage>
+    <body_style>Hatchback</body_style>
+    <image><url>GOLCITY2015%20(7).jpeg</url></image>
+    <image><url>GOLCITY2015%20(1).jpeg</url></image>
+    <image><url>GOLCITY2015%20(2).jpeg</url></image>
+    <image><url>GOLCITY2015%20(3).jpeg</url></image>
+    <image><url>GOLCITY2015%20(4).jpeg</url></image>
+    <address format="simple">
+      <component name="city">São Paulo</component>
+      <component name="region">SP</component>
+      <component name="country">Brasil</component>
+    </address>
+    <neighborhood>Tatuapé</neighborhood>
+  </listing>
 
-<listing><vehicle_id>cruze</vehicle_id><title>Chevrolet Cruze LT 1.8 Automático - 2013</title><description>Completo – ar, direção, vidros, som original, rodas liga leve. Câmbio Automático. 128.316 km rodados. Cautelar aprovada. Versão LT – ótimo equilíbrio entre desempenho e conforto. Documentação em dia.</description><url>https://wa.me/5511955203353?text=Olá! Tenho interesse no Cruze 2013.</url><price>55,900.00 BRL</price><make>Chevrolet</make><model>Cruze LT 1.8</model><year>2013</year><mileage><unit>KM</unit><value>128316</value></mileage><body_style>Sedan</body_style><image><url>CRUZE%20(8).jpeg</url></image><image><url>CRUZE%20(1).jpeg</url></image><image><url>CRUZE%20(2).jpeg</url></image><image><url>CRUZE%20(3).jpeg</url></image><image><url>CRUZE%20(4).jpeg</url></image><address format="simple"><component name="city">São Paulo</component><component name="region">SP</component><component name="country">Brasil</component></address><neighborhood>Tatuapé</neighborhood></listing>
+  <listing>
+    <vehicle_id>cruze</vehicle_id>
+    <title>Chevrolet Cruze LT 1.8 Automático - 2013</title>
+    <description>Completo – ar, direção, vidros, som original, rodas liga leve. Câmbio Automático. 128.316 km rodados. Cautelar aprovada. Versão LT – ótimo equilíbrio entre desempenho e conforto. Documentação em dia.</description>
+    <url>https://wa.me/5511955203353?text=Olá! Tenho interesse no Cruze 2013.</url>
+    <price>55,900.00 BRL</price>
+    <make>Chevrolet</make>
+    <model>Cruze LT 1.8</model>
+    <year>2013</year>
+    <mileage>
+      <unit>KM</unit>
+      <value>128316</value>
+    </mileage>
+    <body_style>Sedan</body_style>
+    <image><url>CRUZE%20(8).jpeg</url></image>
+    <image><url>CRUZE%20(1).jpeg</url></image>
+    <image><url>CRUZE%20(2).jpeg</url></image>
+    <image><url>CRUZE%20(3).jpeg</url></image>
+    <image><url>CRUZE%20(4).jpeg</url></image>
+    <address format="simple">
+      <component name="city">São Paulo</component>
+      <component name="region">SP</component>
+      <component name="country">Brasil</component>
+    </address>
+    <neighborhood>Tatuapé</neighborhood>
+  </listing>
 
-<listing><vehicle_id>amarok</vehicle_id><title>VW AMAROK 2.0 TDI AUT DIESEL</title><description>Ano/Modelo: 2013. Laudo cautelar APROVADO. Bancos em couro, tração 4x4, pneus novos, revisões em dia, ar-condicionado, direção hidráulica, vidros e travas elétricas.</description><url>https://wa.me/5511955203353?text=Olá! Tenho interesse na AMAROK 2013.</url><price>92,900.00 BRL</price><make>Volkswagen</make><model>Amarok 2.0 TDI</model><year>2013</year><mileage><unit>KM</unit><value>0</value></mileage><body_style>Pickup</body_style><image><url>AMAROK%20(8).jpeg</url></image><image><url>AMAROK%20(1).jpeg</url></image><image><url>AMAROK%20(2).jpeg</url></image><image><url>AMAROK%20(3).jpeg</url></image><image><url>AMAROK%20(4).jpeg</url></image><address format="simple"><component name="city">São Paulo</component><component name="region">SP</component><component name="country">Brasil</component></address><neighborhood>Tatuapé</neighborhood></listing>
+  <listing>
+    <vehicle_id>amarok</vehicle_id>
+    <title>VW AMAROK 2.0 TDI AUT DIESEL</title>
+    <description>Ano/Modelo: 2013. Laudo cautelar APROVADO. Bancos em couro, tração 4x4, pneus novos, revisões em dia, ar-condicionado, direção hidráulica, vidros e travas elétricas.</description>
+    <url>https://wa.me/5511955203353?text=Olá! Tenho interesse na AMAROK 2013.</url>
+    <price>92,900.00 BRL</price>
+    <make>Volkswagen</make>
+    <model>Amarok 2.0 TDI</model>
+    <year>2013</year>
+    <mileage>
+      <unit>KM</unit>
+      <value>0</value>
+    </mileage>
+    <body_style>Pickup</body_style>
+    <image><url>AMAROK%20(8).jpeg</url></image>
+    <image><url>AMAROK%20(1).jpeg</url></image>
+    <image><url>AMAROK%20(2).jpeg</url></image>
+    <image><url>AMAROK%20(3).jpeg</url></image>
+    <image><url>AMAROK%20(4).jpeg</url></image>
+    <address format="simple">
+      <component name="city">São Paulo</component>
+      <component name="region">SP</component>
+      <component name="country">Brasil</component>
+    </address>
+    <neighborhood>Tatuapé</neighborhood>
+  </listing>
 
-<listing><vehicle_id>peugeot208</vehicle_id><title>Peugeot 208 Allure 1.6 2018</title><description>Completo + Multimídia + Teto Panorâmico. Motorização 1.6 Flex, câmbio manual, teto panorâmico, multimídia touch, ar digital, direção elétrica, rodas de liga leve, faróis de neblina, interior impecável, revisão em dia.</description><url>https://wa.me/5511955203353?text=Olá! Tenho interesse no 208 com teto panorâmico</url><price>50,900.00 BRL</price><make>Peugeot</make><model>208 Allure 1.6</model><year>2018</year><mileage><unit>KM</unit><value>0</value></mileage><body_style>Hatchback</body_style><image><url>peugeot%20(5).jpeg</url></image><image><url>peugeot%20(1).jpeg</url></image><image><url>peugeot%20(2).jpeg</url></image><image><url>peugeot%20(3).jpeg</url></image><image><url>peugeot%20(4).jpeg</url></image><address format="simple"><component name="city">São Paulo</component><component name="region">SP</component><component name="country">Brasil</component></address><neighborhood>Tatuapé</neighborhood></listing>
+  <listing>
+    <vehicle_id>peugeot208</vehicle_id>
+    <title>Peugeot 208 Allure 1.6 2018</title>
+    <description>Completo + Multimídia + Teto Panorâmico. Motorização 1.6 Flex, câmbio manual, teto panorâmico, multimídia touch, ar digital, direção elétrica, rodas de liga leve, faróis de neblina, interior impecável, revisão em dia.</description>
+    <url>https://wa.me/5511955203353?text=Olá! Tenho interesse no 208 com teto panorâmico</url>
+    <price>50,900.00 BRL</price>
+    <make>Peugeot</make>
+    <model>208 Allure 1.6</model>
+    <year>2018</year>
+    <mileage>
+      <unit>KM</unit>
+      <value>0</value>
+    </mileage>
+    <body_style>Hatchback</body_style>
+    <image><url>208%20(5).jpeg</url></image>
+    <image><url>208%20(1).jpeg</url></image>
+    <image><url>208%20(2).jpeg</url></image>
+    <image><url>208%20(3).jpeg</url></image>
+    <image><url>208%20(4).jpeg</url></image>
+    <address format="simple">
+      <component name="city">São Paulo</component>
+      <component name="region">SP</component>
+      <component name="country">Brasil</component>
+    </address>
+    <neighborhood>Tatuapé</neighborhood>
+  </listing>
 
-<listing><vehicle_id>fiorino</vehicle_id><title>Fiorino 1.3 ano 2010 básica</title><description>Pneus novos. Km: 400.000. Laudo aprovado com restrição. Abaixo da FIPE (R$31.000). Sem leilão e sem sinistro.</description><url>https://wa.me/5511955203353?text=Olá! Tenho interesse na fiorino 2010</url><price>29,900.00 BRL</price><make>Fiat</make><model>Fiorino 1.3</model><year>2010</year><mileage><unit>KM</unit><value>400000</value></mileage><body_style>Utility</body_style><image><url>FIORINO%20(1).jpg</url></image><image><url>FIORINO%20(2).jpg</url></image><image><url>FIORINO%20(3).jpg</url></image><image><url>FIORINO%20(4).jpg</url></image><address format="simple"><component name="city">São Paulo</component><component name="region">SP</component><component name="country">Brasil</component></address><neighborhood>Tatuapé</neighborhood></listing>
+  <listing>
+    <vehicle_id>vectra</vehicle_id>
+    <title>Chevrolet Vectra Collection 2011 Automático</title>
+    <description>✨ Cautelar Aprovado
+✅Financiamento em até 60x
+✅Chegou a oportunidade de dirigir com conforto, estilo e segurança!
+✅Esse Vectra Collection 2011 automático está impecável, com bancos em couro, central multimídia e interior bem conservado, oferecendo toda a sofisticação que você procura.
+✅Ano/Modelo: 2011
+✅Câmbio: Automático
+✅Bancos em couro
+✅Multimídia completa com câmera de ré
+✅Cautelar 100% aprovado
+✅Financiamento facilitado em até 60x
+✅Perfeito para quem busca um sedã confortável, espaçoso e com ótimo custo-benefício
+</description>
+    <url>https://wa.me/5511955203353?text=Olá! Tenho interesse nesse lindo vectra</url>
+    <price>48,900.00 BRL</price>
+    <make>Chevrolet</make>
+    <model>Vectra Collection</model>
+    <year>2011</year>
+    <mileage>
+      <unit>KM</unit>
+      <value>0</value>
+    </mileage>
+    <body_style>Sedan</body_style>
+    <image><url>vectra%20(12).jpg</url></image>
+    <image><url>vectra%20(1).jpg</url></image>
+    <image><url>vectra%20(2).jpg</url></image>
+    <image><url>vectra%20(3).jpg</url></image>
+    <image><url>vectra%20(4).jpg</url></image>
+    <image><url>vectra%20(5).jpg</url></image>
+    <image><url>vectra%20(6).jpg</url></image>
+    <image><url>vectra%20(7).jpg</url></image>
+    <image><url>vectra%20(8).jpg</url></image>
+    <image><url>vectra%20(9).jpg</url></image>
+    <image><url>vectra%20(10).jpg</url></image>
+    <image><url>vectra%20(11).jpg</url></image>
+    <image><url>vectra%20(13).jpg</url></image>
+    <image><url>vectra%20(14).jpg</url></image>
+    <image><url>vectra%20(15).jpg</url></image>
+    <image><url>vectra%20(16).jpg</url></image>
+    <image><url>vectra%20(17).jpg</url></image>
+    <address format="simple">
+      <component name="city">São Paulo</component>
+      <component name="region">SP</component>
+      <component name="country">Brasil</component>
+    </address>
+    <neighborhood>Tatuapé</neighborhood>
+  </listing>
 
-<listing><vehicle_id>vectra</vehicle_id><title>Chevrolet Vectra Collection 2011 Automático</title><description>Cautelar Aprovado. Financiamento e
+</listings>
